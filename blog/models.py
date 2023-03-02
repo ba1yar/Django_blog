@@ -5,6 +5,7 @@ class Post(models.Model):
     """Данные о посте"""
     title = models.CharField('Заголовок записи', max_length=100)
     description = models.TextField('текст записи')
+    img = models.ImageField('Изображение', upload_to='image/%Y')
     author = models.CharField('Имя автора', max_length=100)
     date = models.DateField('Дата публикации')
 
