@@ -1,6 +1,6 @@
 # Django blog with CRUD functionality
 
-Blog app with full Create Read Update and DELETE functionality.
+Blog app with full Create Read Update DELETE likes and comments functionality.
 
 
 Stack
